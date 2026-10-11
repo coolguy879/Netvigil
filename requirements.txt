@@ -1,0 +1,31 @@
+# ═══════════════════════════════════════════════
+#   NetVigil — Wi-Fi Security Auditor
+#   Python Requirements
+# ═══════════════════════════════════════════════
+#
+#   Core functionality uses Python standard
+#   library only (no pip install needed for
+#   basic usage).
+#
+#   The packages below are OPTIONAL and enhance
+#   the output or add extra checks.
+# ═══════════════════════════════════════════════
+
+# ── Optional: richer terminal color support ──
+# colorama>=0.4.6
+
+# ── Optional: easier HTTP requests for
+#    advanced credential checks ──
+# requests>=2.31.0
+
+# ── Optional: network scanning utilities ──
+# python-nmap>=0.7.1
+
+# ═══════════════════════════════════════════════
+#   System packages (install via Termux pkg,
+#   NOT via pip):
+#
+#     pkg install python
+#     pkg install nmap
+#     pkg install termux-api
+# ═══════════════════════════════════════════════
